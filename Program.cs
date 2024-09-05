@@ -40,7 +40,9 @@ for (int i = 0; i < quote.Count(); i++ )
 }
 
 Console.WriteLine(quote);
+Console.WriteLine("Hit \"ENTER\" to continue");
 //Task 3
+Console.ReadLine();
 Console.WriteLine("^..^      /" + "   " + "                                  .-.");
 Console.WriteLine("/_/\\_____/" + "   " + "     (___________________________()6 `-,");
 Console.WriteLine("   /\\   /\\" + "   " + "     (   ______________________   /''\"`");
