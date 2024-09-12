@@ -19,7 +19,7 @@ Console.WriteLine(favMovie.Replace('A', '@').Replace('E', '3'));
 
 //Task 2
 string quote = "To be, or not to be.";
-quote = quote.Replace("o", " ").Replace("e"," ");
+quote = quote.Replace("o", "").Replace("e","");
 Console.WriteLine(quote);
 for (int i = 0; i < quote.Count(); i++ )
 {
